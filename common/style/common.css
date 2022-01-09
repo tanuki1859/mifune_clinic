@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'Roboto','メイリオ', 'Meiryo', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: #232323;
+  height: 100%;
+  position: relative;   
+}
+
+.wrap {
+  overflow: hidden;
+    position: relative;
+}
+
+input,textarea,submit {
+  font-family: '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic', 'Roboto','メイリオ', 'Meiryo', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input, button, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix:before {
+  　　　　content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;    
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+  height: auto;
+  width: 100%;
+}
+
+:focus {
+  outline: unset;
+}
+
+body:not(.custom-background-image):before,
+body:not(.custom-background-image):after {
+  height: 0;
+  position: static;
+}
+
+h2{
+    font-family: "portfolioFont";
+    font-size: 186px;
+    letter-spacing: -8px;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+input[type="button"],input[type="text"],input[type="submit"],input[type="image"],input[type="email"],textarea{
+   -webkit-appearance: none;
+   border-radius: 0;
+}
