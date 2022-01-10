@@ -73,12 +73,6 @@ body:not(.custom-background-image):after {
   position: static;
 }
 
-h2{
-    font-family: "portfolioFont";
-    font-size: 186px;
-    letter-spacing: -8px;
-}
-
 .pc {
   display: block;
 }
