@@ -430,12 +430,14 @@ header{
             }
 
             p{
+                font-weight: bold;
                 margin-bottom: 40px;
             }
 
             table{
+                table-layout: fixed;
                 font-weight: 500;
-                font-size: 18px;
+                font-size: 20px;
 
 
                 tr{
@@ -444,11 +446,13 @@ header{
                     }
 
                     th{
-                        font-weight: 500;
-                        width: 150px;
+                        box-sizing: border-box;
+                        text-align: right;
+                        font-weight: bold;
+                        width: 180px;
                         border-right: 1px solid #1a1a1a;
                         padding: 20px 40px 20px 0;
-                        text-align: right;
+                        letter-spacing: -0.5px;
 
                         span{
                             display: block;
@@ -456,12 +460,17 @@ header{
                         }
                     }
 
+                    &:first-child > th{
+                        letter-spacing: 2px;
+                    }
+
                     td{
+                        font-weight: bold;
                         box-sizing: border-box;
                         display: flex;
                         justify-content: space-between;
                         text-align: center;
-                        width: 490px;
+                        width: 450px;
                         padding: 0 40px;
 
                         span{
@@ -628,6 +637,8 @@ footer{
             letter-spacing: 2px;
 
             p{
+                font-weight: bold;
+                letter-spacing: 0px;
                 width: 730px;
             }
 
