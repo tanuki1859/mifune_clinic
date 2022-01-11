@@ -1,6 +1,1528 @@
 @charset "UTF-8";
-@media screen and (max-width: 1920px) {
-  /* フッター
+@media screen and (max-width: 1750px) {
+/* HEADER
 ---------------------------------------------------------- */
+header{
+  width: 1400px;
+}
+
+
+/* MAIN
+---------------------------------------------------------- */
+.main {
+  width: 1400px;
+}
+
+.contentWrap {
+  width: 100%;
+}
+
+.main .mainVisual {
+  margin-bottom: 152px;
+}
+
+.main .mainVisual article {
+  top: 100px;
+  left: 85px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 15px;
+  font-size: 38px;
+}
+
+.main .cont_01 ul{
+  width: 680px;
+}
+
+.main .cont_01 ul li{
+  width: 47%;
+}
+
+.main .cont_02 .slick {
+  width: 680px;
+}
+
+.main .cont_04 h2 {
+  letter-spacing: 1px;
+}
+
+.main .cont_04 ul {
+  width: 1095px;
+}
+
+.main .cont_05 img {
+  width: 680px;
+}
+
+.main .cont_05 section h2 {
+  margin-bottom: 38px;
+}
+
+.main .cont_05 section p {
+  margin-bottom: 35px;
+}
+
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer .footArea .footAreaTop a {
+  width: 367px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 320px;
+  margin-right: 32px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 370px;
+}
+
+footer ul.contact li{
+  width: 700px;
+}
+
+footer .footArea {
+  width: 1400px;
+}
+
+footer .footArea .footAreaBottom p {
+  width: 615px;
+}
+}
+
+
+@media screen and (max-width: 1530px) {
+/* HEADER
+---------------------------------------------------------- */
+header {
+  width: 1300px;
+  padding: 46px 0 53px;
+}
+
+header h1 {
+  width: 370px;
+}
+
+header ul.list01 {
+  width: 515px;
+  top: 40px;
+}
+
+header ul.list02 li {
+  margin-right: 18px;
+}
+
+header ul.list02 {
+  bottom: 44px;
+}
+
+header ul.list02 li a {
+  font-size: 21px;
+}
+
+
+/* MAIN
+---------------------------------------------------------- */
+.main {
+  width: 1300px;
+}
+
+.contentWrap {
+  margin: 0 auto 138px;
+}
+
+p {
+  font-size: 18.5px;
+}
+
+h2 {
+  margin-bottom: 68px;
+}
+
+h2 span {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 27px;
+  margin-bottom: 36px;
+}
+
+.main .mainVisual {
+  margin-bottom: 145px;
+}
+
+.main .mainVisual article {
+  top: 85px;
+  left: 85px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 13px;
+  font-size: 34px;
+}
+
+.main .mainVisual article p {
+  letter-spacing: 0;
+}
+
+.main .mainVisual article a {
+  font-size: 28px;
+  width: 500px;
+}
+
+.main .mainVisual article a span {
+  padding-right: 28px;
+}
+
+.main .mainVisual article a span::before {
+  width: 8px;
+  height: 8px;
+}
+
+.main .cont_01 ul {
+  width: 645px;
+}
+
+.main .cont_01 section {
+  width: 565px;
+}
+
+.main .cont_01 section h3::before {
+  left: -33px;
+  width: 25px;
+}
+
+.main .cont_02 .slick {
+  width: 645px;
+}
+
+.main .cont_02 section {
+  width: 565px;
+}
+
+.main .cont_02 section h3::before {
+  left: -33px;
+  width: 25px;
+}
+
+.main .cont_02 section p {
+  margin-bottom: 32px;
+}
+
+.main .cont_03::before {
+  height: 330px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 40px;
+}
+
+.main .cont_03 ul {
+  width: 1030px;
+}
+
+.main .cont_03 ul li {
+  width: 185px;
+  margin-bottom: 26.25px;
+}
+
+.main .cont_04 h2 {
+  letter-spacing: 0;
+}
+
+.main .cont_04 ul {
+  width: 1025px;
+}
+
+.main .cont_04 ul li a{
+  font-size: 18.5px;
+}
+
+.main .cont_05 img {
+  width: 645px;
+}
+
+.main .cont_05 section {
+  width: 565px;
+}
+
+.main .cont_05 section h2 {
+  margin-bottom: 32px;
+}
+
+.main .cont_05 section p {
+  margin-bottom: 30px;
+}
+
+.main .cont_05 section table {
+  font-size: 18.5px;
+}
+
+.main .cont_05 section table tr th {
+  width: 162px;
+  padding: 20px 35px 20px 0;
+}
+
+.main .cont_05 section table tr td {
+  width: 395px;
+  padding: 0 35px;
+}
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer ul.contact li {
+  width: 650px;
+}
+
+footer .footArea {
+  width: 1300px;
+}
+
+footer iframe {
+  height: 400px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 18.5px;
+}
+}
+
+
+
+@media screen and (max-width: 1430px) {
+/* HEADER
+---------------------------------------------------------- */
+  header {
+    width: 1200px;
+    padding: 42px 0 48px;
+}
+
+header h1 {
+  width: 330px;
+}
+
+header ul.list01 {
+  width: 450px;
+  top: 35px;
+}
+
+header ul.list01 li:first-child {
+  margin-right: 20px;
+}
+
+header ul.list02 {
+  bottom: 38px;
+}
+
+header ul.list02 li {
+  margin-right: 16px;
+}
+
+header ul.list02 li a {
+  font-size: 18px;
+}
+
+
+
+/* MAIN
+---------------------------------------------------------- */
+.main {
+  width: 1200px;
+}
+
+.main .mainVisual {
+  margin-bottom: 138px;
+}
+
+h2 {
+  margin-bottom: 56px;
+}
+
+h2 span {
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 16.5px;
+}
+
+.contentWrap {
+  margin: 0 auto 120px;
+}
+
+.main .mainVisual article {
+  top: 78px;
+  left: 78px;
+}
+
+.main .mainVisual article h2 {
+  margin-bottom: 20px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 12px;
+  font-size: 30px;
+  padding: 16px 34px;
+}
+
+.main .mainVisual article p {
+  margin-bottom: 25px;
+}
+
+.main .mainVisual article a {
+  font-size: 24px;
+  width: 435px;
+  padding: 19px 0;
+}
+
+.main .cont_01 ul {
+  width: 560px;
+}
+
+.main .cont_01 section {
+  width: 550px;
+}
+
+.main .cont_02 .slick {
+  width: 560px;
+}
+
+.main .cont_02 section {
+  width: 550px;
+}
+
+.main .cont_03 {
+  margin-bottom: 135px;
+}
+
+.main .cont_03::before {
+  height: 295px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 36px;
+}
+
+.main .cont_03 p {
+  margin-bottom: 50px;
+}
+
+.main .cont_03 ul {
+  width: 875px;
+}
+
+.main .cont_03 ul li {
+  width: 155px;
+  margin-bottom: 25px;
+}
+
+.main .cont_04 ul {
+  width: 930px;
+}
+
+.main .cont_04 ul li a {
+  font-size: 16.5px;
+  padding: 0 22px;
+}
+
+.main .cont_05 img {
+  width: 560px;
+}
+
+.main .cont_05 section {
+  width: 550px;
+}
+
+.main .cont_05 section h2 {
+  margin-bottom: 28px;
+}
+
+.main .cont_05 section p {
+  margin-bottom: 28px;
+}
+
+.main .cont_05 section table {
+  font-size: 16.5px;
+}
+
+.main .cont_05 section table tr th {
+  width: 152px;
+}
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer ul.contact li {
+  width: 600px;
+}
+
+footer ul.contact li a {
+  font-size: 21px;
+  padding: 45px 0;
+}
+
+footer ul.contact li a.mail span::before {
+  width: 28px;
+  height: 20px;
+}
+
+footer ul.contact li a.tel span::before {
+  width: 30px;
+  height: 29px;
+}
+
+footer ul.contact li a span {
+  padding-left: 42px;
+}
+
+footer .footArea {
+  width: 1200px;
+}
+
+footer .footArea .footAreaTop a {
+  width: 330px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 290px;
+  margin-right: 28px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 331px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  padding-left: 0;
+}
+
+footer .footArea .footAreaBottom ul li a::before{
+  content: none;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 16.5px;
+}
+
+footer a.copy {
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 15px 0;
+}
+}
+
+
+
+@media screen and (max-width: 1330px) {
+/* HEADER
+---------------------------------------------------------- */
+header {
+    width: 1060px;
+    padding: 38px 0 42px;
+}
+
+header h1 {
+  width: 300px;
+}
+
+header ul.list01 li:first-child {
+  margin-right: 16px;
+}
+
+header ul.list01 {
+  width: 380px;
+  top: 32px;
+}
+
+header ul.list02 {
+  bottom: 36px;
+}
+
+header ul.list02 li {
+  margin-right: 14px;
+}
+
+header ul.list02 li a {
+  font-size: 16.5px;
+}
+
+
+/* MAIN
+---------------------------------------------------------- */
+.main {
+  width: 1060px;
+}
+
+h2 {
+  margin-bottom: 52px;
+  font-size: 20px;
+}
+
+h2 span {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 14.5px;
+}
+
+.contentWrap {
+  margin: 0 auto 112px;
+}
+
+.main .mainVisual {
+  margin-bottom: 125px;
+}
+
+.main .mainVisual article {
+  top: 70px;
+  left: 70px;
+}
+
+.main .mainVisual article h2 {
+  margin-bottom: 16px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 10px;
+  font-size: 26px;
+  padding: 14px 25px;
+}
+
+.main .mainVisual article p {
+  margin-bottom: 18px;
+}
+
+.main .mainVisual article a {
+  font-size: 21px;
+  width: 380px;
+  padding: 17px 0;
+}
+
+.main .cont_01 ul {
+  width: 495px;
+}
+
+.main .cont_01 ul li:last-child {
+  margin-top: 60px;
+}
+
+.main .cont_01 section {
+  width: 475px;
+}
+
+.main .cont_01 section p {
+  margin-bottom: 40px;
+}
+
+.main .cont_02 .slick {
+  width: 495px;
+}
+
+.main .cont_02 .slick .slick-dots li {
+  width: 13px;
+  height: 13px;
+  margin: 0 4px;
+}
+
+.main .cont_02 section {
+  width: 475px;
+}
+
+.main .cont_03 {
+  margin-bottom: 120px;
+  padding-bottom: 48px;
+}
+
+.main .cont_03::before {
+  height: 275px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 32px;
+}
+
+.main .cont_03 p {
+  margin-bottom: 42px;
+}
+
+.main .cont_03 ul {
+  width: 815px;
+}
+
+.main .cont_03 ul li {
+  width: 150px;
+  margin-bottom: 16.25px;
+}
+
+.main .cont_04 ul {
+  width: 920px;
+}
+
+.main .cont_04 ul li {
+  padding: 20px 20px;
+}
+
+.main .cont_04 ul li a {
+  font-size: 14.5px;
+  padding: 0 22px;
+}
+
+.main .cont_04 ul li a span.date {
+  font-size: 12.5px;
+  width: 102px;
+  margin-right: 45px;
+}
+
+.main .cont_04 ul li a span.txt {
+  width: 530px;
+}
+
+.main .cont_05 img {
+  width: 495px;
+}
+
+.main .cont_05 section {
+  width: 475px;
+}
+
+.main .cont_05 section h2 {
+  margin-bottom: 20px;
+}
+
+.main .cont_05 section p {
+  margin-bottom: 24px;
+}
+
+.main .cont_05 section table {
+  font-size: 14.5px;
+}
+
+.main .cont_05 section table tr th {
+  padding: 20px 28px 20px 0;
+}
+
+.main .cont_05 section table tr td {
+  width: 345px;
+  padding: 0 28px;
+}
+
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer ul.contact li {
+  width: 530px;
+}
+
+footer ul.contact li::before,footer ul.contact li:last-child::after{
+  height: 45px;
+}
+
+footer ul.contact li a {
+  font-size: 18px;
+  padding: 40px 0;
+  letter-spacing: 1px;
+}
+
+footer iframe {
+  height: 325px;
+}
+
+footer .footArea {
+  width: 1060px;
+}
+
+footer .footArea .footAreaTop a {
+  width: 300px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 245px;
+  margin-right: 22px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 281px;
+}
+
+footer .footArea .footAreaTop {
+  margin-bottom: 32px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 14.5px;
+}
+footer a.copy {
+  font-size: 13px;
+}
+}
+
+
+@media screen and (max-width: 1170px) {
+/* HEADER
+---------------------------------------------------------- */
+  header {
+    width: 940px;
+    padding: 36px 0 40px;
+}
+
+header h1 {
+  width: 270px;
+}
+
+header ul.list01 {
+  width: 355px;
+  top: 32px;
+}
+
+header ul.list01 li:first-child {
+  margin-right: 12px;
+}
+
+header ul.list02 {
+  bottom: 34px;
+}
+
+header ul.list02 li a {
+  font-size: 16px;
+}
+
+
+/* MAIN
+---------------------------------------------------------- */
+.main {
+  width: 940px;
+}
+
+.contentWrap {
+  margin: 0 auto 100px;
+}
+
+h2 {
+  margin-bottom: 45px;
+  font-size: 18px;
+}
+
+h2 span {
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 21px;
+  margin-bottom: 22px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.main .mainVisual {
+  margin-bottom: 105px;
+}
+
+.main .mainVisual article {
+  top: 58px;
+  left: 58px;
+}
+
+.main .mainVisual article h2 {
+  margin-bottom: 12px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 8px;
+  font-size: 24px;
+  padding: 12px 24px;
+}
+
+.main .mainVisual article p {
+  margin-bottom: 15px;
+}
+
+.main .mainVisual article p .min1170{
+  display: none;
+}
+
+.main .mainVisual article p .max1170{
+  display: block;
+}
+
+.main .mainVisual article a {
+  font-size: 18px;
+  width: 350px;
+  padding: 15px 0;
+}
+
+.main .mainVisual article a span {
+  padding-right: 18px;
+}
+
+.main .mainVisual article a span::before {
+  border-top: solid 2px #06438D;
+  border-right: solid 2px #06438D;
+  width: 6px;
+  height: 6px;
+}
+
+.main .cont_01 ul {
+  width: 445px;
+}
+
+.main .cont_01 section h3::before {
+  left: -22px;
+  width: 16px;
+}
+
+.main .cont_01 section {
+  width: 430px;
+}
+
+.main .cont_01 section p {
+  margin-bottom: 30px;
+}
+
+.main .cont_02 section h3::before {
+  left: -22px;
+  width: 16px;
+}
+
+.main .cont_02 .slick {
+  width: 445px;
+}
+
+.main .cont_02 section {
+  width: 430px;
+}
+
+.main .cont_02 section p {
+  margin-bottom: 10px;
+}
+
+.main .cont_02 .slick .slick-dots li {
+  width: 12px;
+  height: 12px;
+}
+
+.main .cont_03 {
+  margin-bottom: 105px;
+  padding-bottom: 40px;
+}
+
+.main .cont_03::before {
+  height: 230px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 25px;
+}
+
+.main .cont_03 p {
+  margin-bottom: 38px;
+}
+
+.main .cont_03 ul {
+  width: 730px;
+}
+
+.main .cont_03 ul li {
+  width: 134px;
+  margin-bottom: 15px;
+}
+
+.main .cont_04 ul li {
+  padding: 18px 16px;
+}
+
+.main .cont_04 ul li a {
+  font-size: 14px;
+  padding: 0 16px;
+}
+
+.main .cont_04 ul li a span.date {
+  font-size: 12px;
+  width: 90px;
+  margin-right: 35px;
+}
+
+.main .cont_04 ul li a span.txt {
+  width: 520px;
+}
+
+.main .cont_04 ul li a::before {
+  right: 12px;
+  border-top: solid 2px #06438D;
+  border-right: solid 2px #06438D;
+  width: 8px;
+  height: 8px;
+}
+
+.main .cont_05 img {
+  width: 445px;
+}
+
+.main .cont_05 section {
+  width: 430px;
+}
+
+.main .cont_05 section h2 {
+  margin-bottom: 22px;
+}
+
+.main .cont_05 section h2 span.small {
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+}
+
+.main .cont_05 section p {
+  margin-bottom: 22px;
+}
+
+.main .cont_05 section table {
+  font-size: 14px;
+}
+
+.main .cont_05 section table tr th {
+  padding: 16px 23px 16px 0;
+}
+
+.main .cont_05 section table tr td {
+  width: 310px;
+  padding: 0 23px;
+}
+
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer ul.contact li {
+  width: 470px;
+}
+
+footer ul.contact li a {
+  font-size: 16px;
+  padding: 34px 0;
+}
+
+footer ul.contact li a span {
+  padding-left: 34px;
+}
+
+footer ul.contact li a.mail span::before {
+  width: 22px;
+  height: 17px;
+}
+
+footer ul.contact li a.tel span::before {
+  width: 24px;
+  height: 24px;
+}
+
+footer iframe {
+  height: 295px;
+}
+
+footer .footArea {
+  width: 940px;
+  padding: 52px 0;
+}
+
+footer .footArea .footAreaTop {
+  margin-bottom: 28px;
+}
+
+footer .footArea .footAreaTop a {
+  width: 270px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 210px;
+  margin-right: 18px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 241px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 14px;
+}
+
+footer a.copy {
+  font-size: 12px;
+  padding: 13px 0;
+}
+}
+
+
+
+@media screen and (max-width: 1050px) {
+/* HEADER
+---------------------------------------------------------- */
+header {
+    width: 850px;
+    padding: 30px 0 35px;
+}
+
+header h1 {
+  width: 240px;
+}
+
+header ul.list01 {
+  width: 305px;
+  top: 28px;
+}
+
+header ul.list02 {
+  bottom: 30px;
+}
+
+header ul.list02 li {
+  margin-right: 12px;
+}
+
+header ul.list02 li a {
+  font-size: 15px;
+}
+
+
+/* MAIN
+  ---------------------------------------------------------- */
+.main {
+  width: 850px;
+}
+
+.contentWrap {
+  margin: 0 auto 85px;
+}
+
+p {
+  font-size: 13.5px;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin-bottom: 42px;
+  font-size: 16px;
+}
+
+h2 span {
+  font-size: 24px;
+  margin-bottom: 10px;
+
+}
+
+h3 {
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+
+.main .mainVisual {
+  margin-bottom: 90px;
+}
+
+.main .mainVisual article {
+  width: 360px;
+  top: 45px;
+  left: 45px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: 2px;
+  font-size: 21px;
+  padding: 11px 15px;
+}
+
+.main .mainVisual article p {
+  margin-bottom: 12px;
+  letter-spacing: -0.5px;
+}
+
+.main .mainVisual article a {
+  font-size: 18px;
+  width: 320px;
+  padding: 12px 0;
+}
+
+.main .cont_01 ul {
+  width: 400px;
+}
+
+.main .cont_01 section {
+  width: 390px;
+}
+
+.main .cont_01 section p {
+  margin-bottom: 22px;
+}
+
+.main .cont_02 .slick {
+  width: 400px;
+}
+
+.main .cont_02 .slick .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+}
+
+.main .cont_02 section {
+  width: 390px;
+}
+
+.main .cont_02 section p {
+  margin-bottom: 6px;
+}
+
+.main .cont_03 {
+  margin-bottom: 98px;
+  padding-bottom: 33px;
+}
+
+.main .cont_03::before {
+  height: 195px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 22px;
+}
+
+.main .cont_03 p {
+  margin-bottom: 32px;
+}
+
+.main .cont_03 ul {
+  width: 628px;
+}
+
+.main .cont_03 ul li {
+  width: 115px;
+  margin-bottom: 13.25px;
+}
+
+.main .cont_04 ul {
+  width: 665px;
+}
+
+.main .cont_04 ul li {
+  padding: 14px 8px;
+}
+
+.main .cont_04 ul li a {
+  font-size: 13.5px;
+}
+
+.main .cont_04 ul li a span.date {
+  font-size: 11px;
+  width: 88px;
+  padding: 4px 0;
+  margin-right: 22px;
+}
+
+.main .cont_05 img {
+  width: 400px;
+}
+
+.main .cont_05 section {
+  width: 390px;
+}
+
+.main .cont_05 section table {
+  font-size: 13.5px;
+}
+
+.main .cont_05 section table tr th {
+  padding: 14px 18px 14px 0;
+}
+
+.main .cont_05 section table tr th span {
+  margin-bottom: 8px;
+}
+
+.main .cont_05 section table tr td {
+  width: 285px;
+  padding: 0 18px;
+}
+
+.main .cont_05 section table tr td span span {
+  margin-bottom: 8px;
+}
+
+
+/* FOOTER
+---------------------------------------------------------- */
+footer ul.contact li {
+  width: 425px;
+}
+
+footer ul.contact li a {
+  padding: 30px 0;
+}
+
+footer iframe {
+  height: 275px;
+}
+
+footer .footArea {
+  width: 850px;
+  padding: 42px 0;
+}
+
+footer .footArea .footAreaTop {
+  margin-bottom: 23px;
+}
+
+footer .footArea .footAreaTop a {
+  width: 240px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 185px;
+  margin-right: 15px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 213px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 13.5px;
+}
+
+footer a.copy {
+  font-size: 11px;
+  padding: 10px 0;
+}
+}
+
+
+@media screen and (max-width: 920px) {
+  /* HEADER
+  ---------------------------------------------------------- */
+  header {
+    width: 780px;
+    padding: 29px 0 30px;
+}
+
+header h1 {
+  width: 220px;
+}
+
+header ul.list01 {
+  width: 275px;
+  top: 25px;
+}
+
+header ul.list01 li:first-child {
+  margin-right: 10px;
+}
+
+header ul.list02 {
+  bottom: 28px;
+}
+
+header ul.list02 li {
+  margin-right: 10px;
+}
+
+header ul.list02 li a {
+  font-size: 14px;
+}
+
+
+/* MAIN
+  ---------------------------------------------------------- */
+.main {
+  width: 780px;
+}
+
+h2 {
+  margin-bottom: 38px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.contentWrap {
+  margin: 0 auto 82px;
+}
+
+.main .mainVisual {
+  margin-bottom: 78px;
+}
+
+.main .mainVisual article h2 {
+  margin-bottom: 8px;
+}
+
+.main .mainVisual article h2 span {
+  margin-bottom: -3px;
+  font-size: 18.5px;
+  padding: 10px 18px;
+}
+
+.main .mainVisual article p {
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+  font-size: 12px;
+}
+
+.main .mainVisual article a {
+  font-size: 16px;
+  width: 285px;
+  padding: 10px 0;
+}
+
+.main .cont_01 ul {
+  width: 360px;
+}
+
+.main .cont_01 section {
+  width: 375px;
+}
+
+.main .cont_02 .slick {
+  width: 360px;
+}
+
+.main .cont_02 section {
+  width: 375px;
+}
+
+.main .cont_03 {
+  margin-bottom: 95px;
+}
+
+.main .cont_03::before {
+  height: 190px;
+}
+
+.main .cont_03 h2 {
+  margin-bottom: 20px;
+}
+
+.main .cont_03 p {
+  margin-bottom: 28px;
+}
+
+.main .cont_03 ul {
+  width: 610px;
+}
+
+.main .cont_03 ul li {
+  width: 112px;
+  margin-bottom: 12.5px;
+}
+
+.main .cont_04 ul {
+  width: 600px;
+}
+
+.main .cont_04 ul li a {
+  font-size: 13px;
+}
+
+.main .cont_05 img {
+  width: 360px;
+}
+
+.main .cont_05 section {
+  width: 375px;
+}
+
+.main .cont_05 section table {
+  font-size: 13px;
+}
+
+.main .cont_05 section table tr th {
+  padding: 12px 18px 12px 0;
+}
+
+.main .cont_05 section table tr td {
+  width: 270px;
+  padding: 0 18px;
+}
+
+
+/* FOOTER
+  ---------------------------------------------------------- */
+footer ul.contact li {
+    width: 390px;
+}
+
+footer ul.contact li::before, footer ul.contact li:last-child::after {
+    height: 32px;
+}
+
+footer ul.contact li a {
+    padding: 26px 0;
+    font-size: 14px;
+}
+
+footer ul.contact li a.mail span::before {
+  width: 19px;
+  height: 15px;
+}
+
+footer ul.contact li a.tel span::before {
+  width: 21px;
+  height: 22px;
+}
+
+footer ul.contact li a span {
+  padding-left: 32px;
+}
+
+footer iframe {
+    height: 250px;
+}
+
+footer .footArea {
+  width: 780px;
+  padding: 37px 0;
+}
+
+footer .footArea .footAreaTop p {
+  width: 760px;
+}
+
+footer .footArea .footAreaTop a {
+  width: 220px;
+}
+
+footer .footArea .footAreaTop ul li:first-child {
+  width: 168px;
+}
+
+footer .footArea .footAreaTop ul li:last-child {
+  width: 193px;
+}
+
+footer .footArea .footAreaBottom p {
+  width: 625px;
+}
+
+footer .footArea .footAreaBottom ul li a {
+  font-size: 13px;
+}
+}
+
+
+@media screen and (max-width: 850px) {
 
 }

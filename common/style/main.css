@@ -1,3 +1,7 @@
+.main .mainVisual article p .max1170 {
+  display: none;
+}
+
 .webFont {
   font-family: uddigikyokasho-pro, sans-serif;
   font-weight: 600;
@@ -115,13 +119,14 @@ header ul.list02 li a {
 
 .main .mainVisual {
   position: relative;
-  margin-bottom: 125px;
+  margin-bottom: 160px;
 }
 
 .main .mainVisual article {
   position: absolute;
   top: 140px;
   left: 100px;
+  width: 570px;
 }
 
 .main .mainVisual article h2 {
@@ -129,8 +134,6 @@ header ul.list02 li a {
   text-align: left;
   font-size: 40px;
   margin-bottom: 25px;
-  width: 545px;
-  width: 570px;
   letter-spacing: 4px;
 }
 
@@ -182,6 +185,7 @@ header ul.list02 li a {
   border-right: solid 3px #06438D;
   width: 10px;
   height: 10px;
+  margin-top: -1px;
 }
 
 .main .cont_01 ul {
@@ -267,6 +271,7 @@ header ul.list02 li a {
 
 .main .cont_02 .slickThum {
   width: 600px;
+  width: 100%;
 }
 
 .main .cont_02 .slickThum li div {
@@ -335,6 +340,7 @@ header ul.list02 li a {
 .main .cont_04 ul {
   width: 1195px;
   width: 1145px;
+  line-height: 1.4;
 }
 
 .main .cont_04 ul li {
@@ -348,6 +354,12 @@ header ul.list02 li a {
 
 .main .cont_04 ul li a {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2px;
@@ -366,7 +378,7 @@ header ul.list02 li a {
   height: 10px;
 }
 
-.main .cont_04 ul li a span {
+.main .cont_04 ul li a span.date {
   display: inline-block;
   text-align: center;
   background: #06438D;
@@ -375,8 +387,12 @@ header ul.list02 li a {
   letter-spacing: 0.5px;
   font-size: 14px;
   width: 110px;
-  padding: 7px 0;
+  padding: 5px 0;
   margin-right: 55px;
+}
+
+.main .cont_04 ul li a span.txt {
+  width: 790px;
 }
 
 .main .cont_05 img {
@@ -384,7 +400,7 @@ header ul.list02 li a {
 }
 
 .main .cont_05 section {
-  width: 640px;
+  width: 600px;
 }
 
 .main .cont_05 section h2 {
@@ -461,7 +477,7 @@ header ul.list02 li a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-align: center;
-  width: 450px;
+  width: 420px;
   padding: 0 40px;
 }
 
@@ -652,6 +668,7 @@ footer .footArea .footAreaBottom ul li:last-child {
 footer .footArea .footAreaBottom ul li a {
   position: relative;
   padding-left: 16px;
+  font-size: 20px;
 }
 
 footer .footArea .footAreaBottom ul li a::before {
