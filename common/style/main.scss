@@ -1,6 +1,6 @@
 $mainColor: #06438D;
 
-.main .mainVisual article p .max1170{
+.main .mainVisual article p .max1170,.main .mainVisual article p .max850{
     display: none;
   }
 
@@ -186,7 +186,7 @@ header{
                 display: flex;
                 justify-content: space-between;
 
-                li:last-child{
+                li:nth-child(2){
                     margin-top: 75px;
                 }
             }
@@ -655,6 +655,10 @@ footer{
                 font-weight: bold;
                 letter-spacing: 0px;
                 width: 730px;
+
+                .max599{
+                    display: none!important;
+                  }
             }
 
             ul{

@@ -75,25 +75,29 @@ $(window).scroll(function(){
 /*Slick
 ------------------------------------------------------------------------------*/
 $(function() {
-$('.slick').slick({
-    slidesToShow:5,
-    rows:2,
-  responsive:[
-   {
-    breakpoint: 1021, //670px以下のサイズに適用
-    settings: {
+    $('.slick').slick({
         dots: true,
-    }
-   },{
-    breakpoint: 851, //400px以下のサイズに適用
-    settings: {
-    slidesToShow:3,
-        dots: true,        
-    }
-   }
- ]
-});
-});
+        autoplay:true,
+        autoplaySpeed:2000,
+        cssEase: 'ease-out',
+        speed: 1800,
+        fade: true,
+        asNavFor: '.slickThum',
+      responsive:[
+       {
+        breakpoint: 851, 
+        settings: {
+            dots: false
+        }
+       }
+     ]
+    });
+    $('.slickThum').slick({
+        slidesToShow:4,
+        asNavFor: ".slick", // メイン画像と同期
+        focusOnSelect: true, // サムネイルクリックを有効化
+          });
+    });
 
 
 /*トップページ

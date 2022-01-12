@@ -1,4 +1,4 @@
-.main .mainVisual article p .max1170 {
+.main .mainVisual article p .max1170, .main .mainVisual article p .max850 {
   display: none;
 }
 
@@ -198,7 +198,7 @@ header ul.list02 li a {
           justify-content: space-between;
 }
 
-.main .cont_01 ul li:last-child {
+.main .cont_01 ul li:nth-child(2) {
   margin-top: 75px;
 }
 
@@ -644,6 +644,10 @@ footer .footArea .footAreaBottom p {
   font-weight: bold;
   letter-spacing: 0px;
   width: 730px;
+}
+
+footer .footArea .footAreaBottom p .max599 {
+  display: none !important;
 }
 
 footer .footArea .footAreaBottom ul {
