@@ -4,7 +4,7 @@
 
 .webFont {
   font-family: uddigikyokasho-pro, sans-serif;
-  font-weight: 600;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -167,6 +167,10 @@ header ul.list02 li a {
   font-size: 30px;
   padding: 22px 0;
   width: 515px;
+}
+
+_::-webkit-full-page-media, _:future, :root .main .mainVisual article a {
+    text-shadow: 0 0 1px #06438D;
 }
 
 .main .mainVisual article a span {
@@ -697,3 +701,32 @@ footer a.copy {
   padding: 17px 0;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+/* MAC OS
+---------------------------------------------------------- */ 
+_::-webkit-full-page-media, _:future, :root h2 {
+    text-shadow: 0 0 0.5px #06438D;
+}
+
+_::-webkit-full-page-media, _:future, :root .main .mainVisual article h2 span {
+    text-shadow: 0 0 0.5px #fff;
+}
+
+_::-webkit-full-page-media, _:future, :root h3 {
+    text-shadow: 0 0 0.5px #232323;
+}
+
+_::-webkit-full-page-media, _:future, :root header ul.list02 li a,.main .mainVisual article p,footer ul.contact li a {
+    font-weight: 500;
+    letter-spacing: 1px
+}
+
+_::-webkit-full-page-media, _:future, :root p,.main .cont_04 ul li a span.txt,.main .cont_05 section p,.main .cont_05 section table tr th,.main .cont_05 section table tr td,footer .footArea,footer .footArea .footAreaBottom p {
+    font-weight: 300;
+}
+
+_::-webkit-full-page-media, _:future, :root .main .cont_04 ul li a span.date{
+    letter-spacing: 0;
+}

@@ -2112,6 +2112,11 @@ p,.main .cont_04 ul li a,.main .cont_05 section table,footer .footArea .footArea
   padding: 2.352941176vw 6.117647059vw 2.352941176vw 0;
 }
 
+.main .cont_05 section table tr:first-child > th {
+    letter-spacing: 2px;
+    letter-spacing: 0.2352941176vw;
+}    
+    
 .main .cont_05 section table tr td {
   width: 535px;
   width: 62.94117647vw;
@@ -2252,6 +2257,14 @@ footer a.copy {
 
 
 @media screen and (max-width: 599px) {
+h2 span{
+    font-size: 30px;
+    font-size: 5.008347245vw;
+    
+    margin-bottom: 14px;
+    margin-bottom: 2.337228715vw;
+}    
+    
 /* HEADER
 ---------------------------------------------------------- */
 .main .mainVisual article p .max850{
@@ -2324,6 +2337,11 @@ p,p, .main .cont_04 ul li a, .main .cont_05 section table, footer .footArea .foo
   height: 2.504173623vw;
 }
 
+.main .cont_05 section p {
+    letter-spacing: 1px;
+    letter-spacing: 0.1669449082vw;
+}    
+    
 .main .cont_05 section p span.sp{
   display: none!important;
 }
@@ -2332,6 +2350,35 @@ p,p, .main .cont_04 ul li a, .main .cont_05 section table, footer .footArea .foo
   display: block!important;
 }
 
+footer ul.contact li a {
+    font-size: 21px;
+    font-size: 3.505843072vw;
+    
+    padding: 30px 0;
+    padding: 5.008347245vw 0;    
+}    
+    
+footer ul.contact li a.mail span::before {
+    width: 25px;
+    width: 4.173622705vw;
+    
+    height: 19px;
+    height: 3.171953255vw;
+}
+    
+footer ul.contact li a.tel span::before {
+    width: 27px;
+    width: 4.507512521vw;
+    
+    height: 25px;
+    height: 4.173622705vw;
+}    
+    
+footer ul.contact li a span {
+    padding-left: 40px;
+    padding-left: 6.677796327vw;
+}    
+    
 footer .footArea .footAreaBottom p span.min1750 span.min599{
   display: none;
 }
@@ -2361,4 +2408,63 @@ footer a.copy {
   font-size: 14px;
   font-size:2.337228715vw;
 }
+ 
+    
+    
+    
+/* MAC OS
+---------------------------------------------------------- */ 
+_::-webkit-full-page-media, _:future, :root .main .mainVisual article p,.nav ul li a{
+    font-weight: 600;
+}
+    
+_::-webkit-full-page-media, _:future, :root h2{
+    letter-spacing: -2.5px;
+    letter-spacing: -0.2941176471vw;
+    
+    font-size: 24px;
+    font-size: 2.823529412vw;
+}
+    
+_::-webkit-full-page-media, _:future, :root h2 span{
+    margin-bottom: 20px;
+    margin-bottom: 2.352941176vw;     
+}
+    
+_::-webkit-full-page-media, _:future, :root .main .cont_04 h2 span{
+    letter-spacing: 0;    
+}
+    
+_::-webkit-full-page-media, _:future, :root .main .cont_04 ul li a span.date{
+    letter-spacing: -1.5px;
+    letter-spacing: -0.2504173623vw;
+} 
+
+_::-webkit-full-page-media, _:future, :root .main .cont_05 section p{
+    letter-spacing: -0.5px;
+    letter-spacing: -0.05882352941vw;
+} 
+    
+_::-webkit-full-page-media, _:future, :root .main .cont_05 section table tr th{
+    letter-spacing: -1.5px;
+    letter-spacing: -0.2504173623vw;
+    
+    padding-right: 24px;
+    padding-right: 4.006677796vw;
+}
+    
+_::-webkit-full-page-media, _:future, :root .main .cont_05 section table tr:first-child > th{
+    letter-spacing: 1.5px;
+    letter-spacing: 0.2504173623vw;  
+}    
+    
+_::-webkit-full-page-media, _:future, :root .main .cont_05 section table tr td{
+    padding-left: 24px;
+    padding-left: 4.006677796vw;
+}
+   
+_::-webkit-full-page-media, _:future, :root footer .footArea .footAreaBottom ul li:nth-child(4) > a{
+    margin-right: -15px;
+    margin-right: -2.504173623vw;  
+}    
 }
