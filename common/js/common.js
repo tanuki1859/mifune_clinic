@@ -102,3 +102,10 @@ $(function() {
 
 /*トップページ
 ------------------------------------------------------------------------------*/
+(function (){
+    document.getElementById('loading').classList.add('view');
+    setTimeout(loading, 2500);
+    function loading(){
+        document.getElementById('loading').classList.add('none');
+    }
+}());

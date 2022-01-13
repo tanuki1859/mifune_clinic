@@ -775,6 +775,10 @@ footer a.copy {
 
 
 @media screen and (max-width: 1170px) {
+.loading img{
+  width: 35%;
+}
+
 /* HEADER
 ---------------------------------------------------------- */
   header {
@@ -1529,6 +1533,10 @@ footer .footArea .footAreaBottom ul li a {
 
 
 @media screen and (max-width: 850px) {
+.loading img{
+  width: 60%;
+}
+
 .pc{
   display: none!important;
 }
