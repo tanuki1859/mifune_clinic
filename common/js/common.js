@@ -102,6 +102,7 @@ $(function() {
 
 /*トップページ
 ------------------------------------------------------------------------------*/
+window.addEventListener('DOMContentLoaded', (event) => {
 (function (){
     document.getElementById('loading').classList.add('view');
     setTimeout(loading, 2500);
@@ -109,3 +110,4 @@ $(function() {
         document.getElementById('loading').classList.add('none');
     }
 }());
+});
